@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProyectoCalendario.jnlp">
+  <information>
+    <title>ProyectoCalendario</title>
+    <vendor>Cinth</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProyectoCalendario.jar" size="1641" download="eager" />
+    <jar href="lib\calendarfx-recurrence-8.4.0.jar" size="159319" download="eager" />
+    <jar href="lib\calendarfx-view-8.4.0.jar" size="745364" download="eager" />
+    <jar href="lib\controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.13.jar" size="20607" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-1.jar" size="135304" download="eager" />
+    <jar href="lib\jfxtras-labs-samples-8.0-r6-SNAPSHOT-all.jar" size="4785232" download="eager" />
+    <jar href="lib\license4j-1.4.0.jar" size="13936" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProyectoCalendario" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="proyectocalendario.ProyectoCalendario"  name="ProyectoCalendario" />
+  <update check="always"/>
+</jnlp>

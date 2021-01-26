@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'ProyectoCalendario.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUHJveWVjdG9DYWxlbmRhcmlvLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPlByb3llY3RvQ2FsZW5kYXJpbzwvdGl0bGU+DQogICAgPHZlbmRvcj5DaW50aDwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJQcm95ZWN0b0NhbGVuZGFyaW8uamFyIiBzaXplPSIxNjQxIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY2FsZW5kYXJmeC1yZWN1cnJlbmNlLTguNC4wLmphciIgc2l6ZT0iMTU5MzE5IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY2FsZW5kYXJmeC12aWV3LTguNC4wLmphciIgc2l6ZT0iNzQ1MzY0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY29udHJvbHNmeC04LjQwLjExLmphciIgc2l6ZT0iOTg1NDIwIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZm9udGF3ZXNvbWVmeC1jb21tb25zLTguMTMuamFyIiBzaXplPSIyMDYwNyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGZvbnRhd2Vzb21lZngtZm9udGF3ZXNvbWUtNC43LjAtMS5qYXIiIHNpemU9IjEzNTMwNCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGpmeHRyYXMtbGFicy1zYW1wbGVzLTguMC1yNi1TTkFQU0hPVC1hbGwuamFyIiBzaXplPSI0Nzg1MjMyIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcbGljZW5zZTRqLTEuNC4wLmphciIgc2l6ZT0iMTM5MzYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iUHJveWVjdG9DYWxlbmRhcmlvIiA+DQogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPg0KICA8L2FwcGxldC1kZXNjPg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icHJveWVjdG9jYWxlbmRhcmlvLlByb3llY3RvQ2FsZW5kYXJpbyIgIG5hbWU9IlByb3llY3RvQ2FsZW5kYXJpbyIgLz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedproyectocalendario() {
+        dtjava.embed(
+            {
+                id : 'proyectocalendario',
+                url : 'ProyectoCalendario.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0iUHJveWVjdG9DYWxlbmRhcmlvLmpubHAiPg0KICA8aW5mb3JtYXRpb24+DQogICAgPHRpdGxlPlByb3llY3RvQ2FsZW5kYXJpbzwvdGl0bGU+DQogICAgPHZlbmRvcj5DaW50aDwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJQcm95ZWN0b0NhbGVuZGFyaW8uamFyIiBzaXplPSIxNjQxIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY2FsZW5kYXJmeC1yZWN1cnJlbmNlLTguNC4wLmphciIgc2l6ZT0iMTU5MzE5IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY2FsZW5kYXJmeC12aWV3LTguNC4wLmphciIgc2l6ZT0iNzQ1MzY0IiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcY29udHJvbHNmeC04LjQwLjExLmphciIgc2l6ZT0iOTg1NDIwIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcZm9udGF3ZXNvbWVmeC1jb21tb25zLTguMTMuamFyIiBzaXplPSIyMDYwNyIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGZvbnRhd2Vzb21lZngtZm9udGF3ZXNvbWUtNC43LjAtMS5qYXIiIHNpemU9IjEzNTMwNCIgZG93bmxvYWQ9ImVhZ2VyIiAvPg0KICAgIDxqYXIgaHJlZj0ibGliXGpmeHRyYXMtbGFicy1zYW1wbGVzLTguMC1yNi1TTkFQU0hPVC1hbGwuamFyIiBzaXplPSI0Nzg1MjMyIiBkb3dubG9hZD0iZWFnZXIiIC8+DQogICAgPGphciBocmVmPSJsaWJcbGljZW5zZTRqLTEuNC4wLmphciIgc2l6ZT0iMTM5MzYiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0iUHJveWVjdG9DYWxlbmRhcmlvIiA+DQogICAgPHBhcmFtIG5hbWU9InJlcXVpcmVkRlhWZXJzaW9uIiB2YWx1ZT0iOC4wKyIvPg0KICA8L2FwcGxldC1kZXNjPg0KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0icHJveWVjdG9jYWxlbmRhcmlvLlByb3llY3RvQ2FsZW5kYXJpbyIgIG5hbWU9IlByb3llY3RvQ2FsZW5kYXJpbyIgLz4NCiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+DQo8L2pubHA+DQo='
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedproyectocalendario);
+</script>
+
+</head><body>
+<h2>Test page for <b>ProyectoCalendario</b></h2>
+  <b>Webstart:</b> <a href='ProyectoCalendario.jnlp' onclick="return launchApplication('ProyectoCalendario.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
